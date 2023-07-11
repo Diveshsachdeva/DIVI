@@ -1,0 +1,1675 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.nav-bar {
+    position: fixed;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 5px 10px 0px #aaa;
+    /* opacity: 5; */
+    z-index: 1;
+    opacity: 0.85;
+
+}
+
+nav ul {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    padding-left: 55pc;
+    margin-top: -45px;
+    z-index: 1;
+}
+
+nav ul li {
+    color: #645f5f;
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 580;
+    z-index: 1;
+}
+
+.nav-image {
+    height: 450px;
+    margin-top: -3.5pc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    width:100%;
+}
+
+.logo {
+    margin-left: 10pc;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 2.5pc;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    color: #16a083;
+    transition: 0.3s all;
+}
+
+.h1 {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -16pc;
+    margin-left: 37pc;
+    font-size: 2.2pc;
+}
+
+.p {
+    position: absolute;
+    /* font-weight: 800; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -12pc;
+    margin-left: 33.5pc;
+    font-size: 1.8pc;
+}
+
+.menu-btn {
+    height: 65px;
+    width: 140px;
+    position: absolute;
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-left: 42pc;
+    font-size: 1.4pc;
+    /* margin-top: 13pc; */
+    cursor: pointer;
+    transition: 0.3s all ease-in;
+    margin-top: -8pc;
+
+}
+
+.menu-btn:hover {
+    background-color: #16a083;
+}
+
+/* About us section coding start from here */
+#div2 {
+    position: absolute;
+    margin-top: -0.2pc;
+    height: 520px;
+    width: 100%;
+    background-color: rgb(240, 242, 241);
+    position: absolute;
+    margin-left: pc;
+}
+
+#about-us {
+    font-size: 40px;
+    margin-left: 40pc;
+    margin-top: 3pc;
+    font-weight: bold;
+    /* color:#645f5f; */
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.hr1 {
+    width: 180px;
+    margin-left: 41pc;
+    border-top: solid;
+    opacity: 0.2;
+}
+
+#h1 {
+    margin-left: 10pc;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: Arial Black;
+    line-height: 1.5;
+    font-family: Cambria Math;
+    margin-top: 4pc;
+
+}
+
+#h3 {
+    font-size: 20px;
+    margin-left: 10pc;
+    font-weight: lighter;
+    color: #645f5f;
+    margin-top: 0.5pc;
+
+    /* text-align-last: center; */
+}
+
+.img-3 {
+    position: absolute;
+    height: 400px;
+    margin-left: 53.5pc;
+    margin-top: -20pc;
+}
+
+/* <!-- types of food  --> */
+.div-3 {
+    height: 800px;
+    width: 100%;
+
+}
+
+#types-of-food {
+    position: absolute;
+    color: black;
+    margin-top: 35pc;
+    margin-left: 37pc;
+    font-size: 38px;
+    /* color: #645f5f; */
+    font-weight: lighter;
+    font-weight: bold;
+}
+
+.hr2 {
+    position: absolute;
+    width: 200px;
+    margin-left: 40pc;
+    border-top: solid;
+    margin-top: 38pc;
+    opacity: 0.5;
+
+}
+
+.img-4 {
+    position: absolute;
+    height: 240px;
+    margin-left: 6pc;
+    margin-top: 40pc;
+    width: 400px;
+}
+
+.img-5 {
+    position: absolute;
+    height: 240px;
+    margin-left: 34pc;
+    margin-top: 40pc;
+    width: 400px;
+
+}
+
+.img-6 {
+    position: absolute;
+    height: 240px;
+    margin-left: 61.5pc;
+    margin-top: 40pc;
+    width: 400px;
+
+}
+
+/* food menu */
+#div4 {
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    margin-left: -5pc;
+    margin-top: -9pc;
+}
+
+/* food menu heading  */
+.h6 {
+    margin-top: 15pc;
+    margin-left: 44pc;
+    font-size: 40px;
+    /* color: #645f5f; */
+    color: black;
+    font-weight: bold;
+}
+
+.hr3 {
+    position: absolute;
+    width: 180px;
+    margin-left: 46pc;
+    border-top: solid;
+    opacity: 0.5;
+
+}
+
+/* food item 1  */
+.img-7 {
+    margin-left: 15pc;
+    margin-top: 5pc;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.h7 {
+    position: absolute;
+    margin-left: 29pc;
+    font-size: 25px;
+    margin-top: -10pc;
+}
+
+/* content item 1 */
+.p7 {
+    position: absolute;
+    color: rgb(87, 84, 84);
+    font-size: 19px;
+    margin-left: 29pc;
+    margin-top: -8pc;
+}
+
+/* food item 2  */
+.img-8 {
+    margin-left: 25pc;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.h8 {
+    position: absolute;
+    margin-left: 67pc;
+    font-size: 25px;
+    margin-top: -10pc;
+    text-align-last: center;
+}
+
+.p8 {
+    position: absolute;
+    margin-left: 67pc;
+    margin-top: -8pc;
+    font-size: 18px;
+    color: #645f5f;
+}
+
+/* item 3 */
+.img-9 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 21pc;
+    margin-left: -50.5pc;
+
+
+}
+
+.h9 {
+    position: absolute;
+    margin-left: 29pc;
+    font-size: 25px;
+    margin-top: 5pc;
+    text-align-last: center;
+}
+
+.p9 {
+    position: absolute;
+    margin-left: 29pc;
+    margin-top: 7pc;
+    font-size: 18px;
+    color: #645f5f;
+}
+
+/* item 4 */
+.img-10 {
+    margin-left: 53pc;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 2.5pc;
+
+}
+
+.h10 {
+    position: absolute;
+    margin-left: 67pc;
+    font-size: 25px;
+    margin-top: -10.5pc;
+    text-align-last: center;
+}
+
+.p10 {
+    position: absolute;
+    margin-left: 67pc;
+    margin-top: -8.5pc;
+    font-size: 18px;
+    color: #645f5f;
+}
+
+/* item 5 */
+
+.img-11 {
+    margin-left: 53pc;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 2.5pc;
+}
+
+.h11 {
+    position: absolute;
+    margin-left: 67pc;
+    font-size: 25px;
+    margin-top: -10pc;
+    text-align-last: center;
+}
+
+.p11 {
+    position: absolute;
+    margin-left: 67pc;
+    margin-top: -8pc;
+    font-size: 18px;
+    color: #645f5f;
+}
+
+/* item6 */
+.img-12 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 3.5pc;
+    margin-left: -50.5pc;
+
+
+}
+
+.h12 {
+    position: absolute;
+    margin-left: 29pc;
+    font-size: 25px;
+    margin-top: -10pc;
+    text-align-last: center;
+}
+
+.p12 {
+    position: absolute;
+    margin-left: 29pc;
+    margin-top: -7.5pc;
+    font-size: 18px;
+    color: #645f5f;
+}
+
+/*  what our customer say  */
+
+#div5 {
+    height: 600px;
+    width: 100%;
+    background-color: #f3efef;
+    margin-top: 60pc;
+}
+
+.h13 {
+    position: absolute;
+    color: #645f5f;
+    font-size: 45px;
+    font-weight: lighter;
+    margin-top: 4pc;
+    margin-left: 30pc;
+    text-transform: uppercase;
+}
+
+.img-13 {
+    height: 200px;
+    margin-left: 17pc;
+    margin-top: 12pc;
+    border-radius: 50%;
+}
+#img-14 {
+    position: absolute;
+    height: 200px;  
+    margin-left: 45pc;
+    margin-top: -13pc;
+    border-radius: 50%;
+
+}
+#img-15 {
+    position: absolute;
+    height: 200px;
+    margin-left: 72.5pc;
+    margin-top: -13pc;
+    border-radius: 50%;
+}
+
+
+.h14 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 17pc;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 1pc;
+    padding: 5px;
+}
+
+.h15 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 45pc;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 1pc;
+    padding: 5px;
+}
+
+#h16 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 73pc;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 1pc;
+    padding: 5px;
+}
+
+/* first post star  */
+
+#star {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 17pc;
+    font-size: 25px;
+}
+
+#star1 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 19pc;
+    font-size: 25px;
+}
+
+#star2 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 21pc;
+    font-size: 25px;
+}
+
+#star3 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 23pc;
+    font-size: 25px;
+}
+
+#star4 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 25pc;
+    font-size: 25px;
+}
+
+/* second post star  */
+
+#star5 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 45pc;
+    font-size: 25px;
+}
+
+#star6 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 47pc;
+    font-size: 25px;
+}
+
+#star7 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 49pc;
+    font-size: 25px;
+}
+
+#star8 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 51pc;
+    font-size: 25px;
+}
+
+#star9 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 53pc;
+    font-size: 25px;
+}
+
+/* third post star here */
+
+#star10 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 73pc;
+    font-size: 25px;
+}
+
+#star11 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 75pc;
+    font-size: 25px;
+}
+
+#star12 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 77pc;
+    font-size: 25px;
+}
+
+#star13 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 79pc;
+    font-size: 25px;
+}
+
+#star14 {
+    position: absolute;
+    margin-top: 3pc;
+    margin-left: 81pc;
+    font-size: 25px;
+}
+
+.p13 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-left: 12pc;
+    margin-top: 6pc;
+}
+
+.p14 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-left: 41pc;
+    margin-top: 6pc;
+}
+
+.p15 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin-left: 68pc;
+    margin-top: 6pc;
+}
+
+/* last section contact us  */
+#div6 {
+    background-color: #d7d1d1;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    margin-top: 8pc;
+    padding-top: 5;
+}
+
+.img-14 {
+    margin-top: 4pc;
+    height: 500px;
+    margin-left: 5pc;
+}
+
+.div7 {
+    background-color: white;
+    height: 500px;
+    width: 40%;
+    position: absolute;
+    margin-top: 12pc;
+    margin-left: 49pc;
+}
+
+input[type="text"] {
+    height: 50px;
+    margin-left: 5pc;
+    margin-top: 3pc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 70%;
+    border-bottom-color: #aaa;
+    outline: none;
+
+}
+
+input[type="email"] {
+    height: 50px;
+    margin-left: 5pc;
+    margin-top: 2pc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 70%;
+    border-bottom-color: #aaa;
+    outline: none;
+
+}
+
+.area {
+    position: absolute;
+    margin-left: -26pc;
+    margin-top: 7pc;
+    color: black;
+    padding-top: 1pc;
+}
+
+.btn-2 {
+    height: 65px;
+    width: 140px;
+    /* position: absolute; */
+    background-color: #16a083;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-left: 12pc;
+    font-size: 1.4pc;
+    margin-top: 15pc;
+    cursor: pointer;
+    transition: 0.3s all ease-in;
+}
+
+.h16 {
+    position: absolute;
+    margin-top: -5pc;
+    margin-left: 29pc;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+}
+
+.h17 {
+    position: absolute;
+    margin-top: -5.1pc;
+    margin-left: 67pc;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+}
+.h44
+{
+    position: absolute;
+    margin-top: 10pc;
+    margin-left: 29pc;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+}
+.h45
+{
+    position: absolute;
+    margin-top: -5.5pc;
+    margin-left: 67pc;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+}
+.h46
+{
+    position: absolute;
+    margin-top: -5pc;
+    margin-left: 67pc;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+}
+.h47
+{
+    position: absolute;
+    margin-top: -4.5pc;
+    margin-left: 29pc;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+}
+.h18 {
+    position: absolute;
+    margin-top: 10pc;
+    margin-left: 29pc;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+}
+/* contact us session */
+.contact-us
+{
+    height: 800px;
+    width: 100%;
+}
+.text-1
+{
+    position: absolute;
+    margin-left:42pc;
+    margin-top: 15pc;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-2
+{
+    position: absolute;
+    margin-left:44pc;
+    margin-top: 18pc;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(15, 133, 212);;
+    font-weight: 500;
+}
+.hr4
+{
+    border: solid black 2px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -2.8pc;
+    width: 40px;
+}
+.hr5
+{
+    border: solid black 2px;
+    position: absolute;
+    margin-top: -11px;
+    margin-left: 6.8pc;
+    width: 40px;
+}
+.get-in
+{
+    position: absolute;
+    margin-top: 25pc;
+    margin-left: 15pc;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.connect
+{
+    position: absolute;
+    margin-top: 27pc;
+    margin-left: 15pc;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+#profile-logo
+{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 30.5pc;
+    margin-left: 15pc;
+}
+.name
+{
+    position: absolute;
+    margin-left: 18pc;
+    margin-top: 30pc;
+    font-weight: bold;
+}
+.name-1
+{
+    position: absolute;
+    margin-left: 18pc;
+    margin-top: 31.5pc;
+    font-size: 18px;
+    color: rgb(61, 56, 56);
+}
+#location-logo
+{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 35pc;
+    margin-left: 15pc; 
+}
+.Adress
+{
+    position: absolute;
+    margin-left: 18pc;
+    margin-top: 35pc;
+    font-weight: bold;
+}
+.address-1
+{
+    position: absolute;
+    margin-left: 18pc;
+    margin-top: 36.5pc;
+    color: rgb(61, 56, 56);
+    font-size: 15px;
+
+
+}
+#EMAIL-logo
+{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 39pc;
+    margin-left: 15pc; 
+}
+.email-name
+{
+    position: absolute;
+    margin-left: 18pc;
+    margin-top: 39pc;
+    font-weight: bold;
+}
+.Email-fill
+{
+    position: absolute;
+    margin-left: 18pc;
+    margin-top: 40.5pc;
+    color: rgb(61, 56, 56);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.message-me
+{
+    position: absolute;
+    margin-top: 24.2pc;
+    margin-left: 52pc;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+}
+#input-name
+{
+    position: absolute;
+    margin-top: 26.5pc;
+    width: 270px;
+    margin-left: 52pc;
+    border: 2px solid rgb(216, 216, 216);
+    padding-left: 12px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 16px;
+    height: 45px;
+}
+#Email-text
+{
+    position: absolute;
+    margin-top: 26.5pc;
+    width: 270px;
+    margin-left: 70pc;
+    border: 2px solid rgb(216, 216, 216);
+    padding-left: 12px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 16px;
+    height: 45px;
+}
+#Subject-txt
+{
+    position: absolute;
+    margin-top: 30pc;
+    width: 560px;
+    margin-left: 52pc;
+    border: 2px solid rgb(216, 216, 216);
+    padding-left: 12px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 16px;
+    height: 45px;
+}
+#Message-txt
+{
+    position: absolute;
+    margin-top: 34pc;
+    width: 560px;
+    margin-left: 52pc;
+    border: 2px solid rgb(216, 216, 216);
+    padding-left: 12px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 16px;
+    height: 90px;
+    padding-top: 0;
+    padding-bottom: 2pc;
+
+}
+input[type="submit"]
+{
+    position: absolute;
+    margin-left: 52pc;
+    margin-top: 41pc;
+    height: 45px;
+    width: 150px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 18px;
+    background-color:  rgb(15, 133, 212);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    font-weight: bold;
+}
+input[type="submit"]:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.5s all;
+    border:rgb(15, 133, 212) solid 2px ;
+}
+.btn-contact:hover
+{
+    background-color: white;
+    color: black;
+    border: rgb(15, 133, 212) 2px solid;
+    transition:0.5s all;
+}
+.copyright
+{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: rgb(200, 196, 196);
+    margin-top: 46.5pc;
+    text-align: center;
+    padding-top: 22px;
+}
+#slider {
+    overflow: hidden;
+}
+#heading-typ-of-food
+{
+   margin-top: 34pc;
+    margin-left: 36pc;
+    font-size: 40px;
+    /* color: #645f5f; */
+    color: black;
+    font-weight: bold;
+    position: absolute;
+}
+.heading-typ-of-food-hr
+{
+    width: 270px;
+    margin-left: 38pc;
+    border-top: solid;
+    opacity: 0.2;
+    position: absolute;
+    margin-top: 37pc
+}
+
+#slider figure {
+    position: relative;
+    width: 450%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+    margin-top: 32pc;
+    margin-right: 2pc   ;
+    
+}
+
+#slider img {
+    height: 350px;
+    width:7%;
+    float: left;
+    margin-top: 150px;
+    border: black 2px solid;
+
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {              
+        left: 0;
+    }
+}
+
+/* media querry */
+@media only screen and (max-width: 480px)
+ {
+    .nav-bar
+    {
+      padding: 1rem;  
+    }
+    .logo
+    {
+        padding-left: 8.2rem;
+        margin-top: -1rem;
+    }
+    nav
+    {
+        display: none;
+        position: fixed;
+    }
+    .nav-image{
+        height: 350px;
+        opacity: 1;
+    }
+    .h1
+    {
+        margin-left: 7rem;
+        font-size: 20px;
+        padding-top: 4rem;
+        font-weight: 800;
+        opacity: 0.7;
+    }
+    .p
+    {
+        margin-left: 6rem;
+        font-size: 13px;
+        opacity: 0.7;
+        padding-top: 2.2rem;
+    }
+    .menu-btn
+    {
+        margin-left: 8rem;
+        height: 45px;
+        width: 110px;
+        font-size: 15px;
+        
+    }
+    #about-us
+    {
+        margin-left: 2rem;
+        font-size: 10px;
+        color: gray;
+        /* text-transform: lwercase; */
+    }
+    #h1
+    {
+        margin-left: 1.85rem;
+        font-size: 20px;
+        font-weight: 900;   
+        margin-top: 0;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #h3
+    {
+        margin-left:2rem;
+        font-size: 12px;
+        margin-top: 0;
+        line-height: 1.4;
+    }
+    .hr1
+    {
+        display: none;                                                              
+    }
+    .img-3
+    {
+        margin-left: -0.5rem;
+        height: 220px;
+        margin-top: 2rem;
+    }
+    #heading-typ-of-food
+    {
+     margin-left: 5rem;
+     font-size: 25px;
+     font-weight: bold;
+     padding-top: 1rem;
+     color: gray;
+
+    }
+    .heading-typ-of-food-hr
+    {
+        display: none;
+    }
+    #slider figure {
+        width:1000%;
+        animation: 15s slider infinite;
+        margin-top: 30pc;
+    }
+    
+    #slider img {
+        height: 150px;
+        width:5%;
+        float: left;
+        border: black 2px solid;
+    
+    }
+    .h6
+    {
+        margin-left: 12rem;
+        font-size: 25px;
+        font-weight: lighter;
+        color: gray;
+        margin-top:12rem;
+        font-weight: 600;
+ }
+ .hr3
+ {
+    display: none;
+ }
+ .img-7
+ {
+    margin-top: 2rem;
+    margin-left: 10rem;
+ }
+ .h7
+ {
+    margin-left: 12.5rem;
+    margin-top: 0rem;
+    font-size: 14px;
+    font-weight: 800;
+ }
+ .p7
+ {
+    margin-left: 11rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+ }
+ .h16
+ {
+    margin-left: 14rem;
+    margin-top: 3.4rem;
+    text-align: center;
+    font-size: 13px;
+    color: green;
+ }
+
+
+ /* item 2  */
+ .img-8
+ {
+    margin-top: 6rem;
+    margin-left: 9.5rem;
+ }
+ .h8
+ {
+    margin-left: 12.7rem;
+    margin-top: 0rem;
+    font-size: 14px;
+    font-weight: 800;
+ }
+ .p8
+ {
+    margin-left: 10.5rem;
+    margin-top: 1.4rem;
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+ }
+ .h17
+ {
+    margin-left: 14rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 13px;
+    color: green;
+ }
+ /* item 3 */
+ .img-9
+ {
+    margin-top: 24.5rem;
+    margin-left: -12rem;
+    position: inherit;
+ }
+  .h9
+ {
+    margin-left: 12.8rem;
+    margin-top: 18.5rem;
+    font-size: 14px;
+    font-weight: 800;
+ }
+ .p9
+ {
+    margin-left: 11rem;
+    margin-top: 20rem;
+    font-size: 10px;
+    text-align: center;
+    color: grey;
+
+ }
+ .h44
+ {
+    margin-left: 14rem;
+    margin-top: 22rem;
+    text-align: center;
+    font-size: 13px;
+    color: green;
+ } 
+
+ /*  */
+  .img-10
+ {
+    margin-top: 25rem;
+    margin-left: 10rem;
+ }
+  .h10
+ {
+    margin-left: 12rem;
+    margin-top: 0.5rem;
+    font-size: 14px;
+    font-weight: 800;
+ }
+ .p10
+ {
+    margin-left: 11rem;
+    margin-top: 2rem;
+    font-size: 10px;
+    text-align: center;
+    color: grey;
+
+ }
+.h45
+ {
+    margin-left: 14rem;
+    margin-top: 3.8rem;
+    text-align: center;
+    font-size: 13px;
+    color: green;
+ } 
+
+
+ /* food itme 5 */
+ .img-11
+ {
+    margin-top: 7rem;
+    margin-left: 10rem;
+ }
+  .h11
+ {
+    margin-left: 12.5rem;
+    margin-top: 0.2rem;
+    font-size: 14px;
+    font-weight: 800;
+ }
+ .p11
+ {
+    margin-left: 11rem;
+    margin-top: 1.8rem;
+    font-size: 10px;
+    text-align: center;
+    color: grey;
+
+ }
+ .h46
+ {
+    margin-left: 14rem;
+    margin-top: 3.5rem;
+    text-align: center;
+    font-size: 13px;
+    color: green;
+ }
+ /* ============== */
+ .img-12
+ {
+    margin-top: 26rem;
+    margin-left: -12rem;
+ }
+   .h12
+ {
+    margin-left: 13rem;
+    margin-top: 19.5rem;
+    font-size: 14px;
+    font-weight: 800;
+ }
+ .p12
+ {
+    margin-left: 11rem;
+    margin-top: 21rem;
+    font-size: 10px;
+    text-align: center;
+    color: grey;
+
+ }
+ .h47
+ {
+    margin-left: 14rem;
+    margin-top: 23rem;
+    text-align: center;
+    font-size: 13px;
+    color: green;
+ } 
+
+
+ /* customer section start from here */
+
+ #div5
+ {
+    margin-top: 125rem;
+    height: 1300px;
+ }
+ .h13
+
+ {
+    font-size: 20px;
+    margin-left: 3.4rem;
+    font-weight: bold;
+ }
+
+
+/* first customer */
+ .img-13
+ {
+    margin-left: 7rem;
+    margin-top: 8rem;
+ }
+ .h14
+ {
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+ }
+ #star/* ,#star2,#star3,#star4 */
+ {
+    margin-left: 7rem;
+}
+#star1
+{
+     margin-left: 9rem;
+    
+ }
+ #star2
+{
+     margin-left:11rem;
+    
+ }
+ #star3
+{
+     margin-left: 13rem;
+    
+ }
+ #star4
+{
+     margin-left: 15rem;
+ }
+ .p13
+ {
+    font-size: 10px;
+    text-align: center;
+    margin-left: 6.5rem;
+    margin-top: 5rem;
+ }
+
+ /* cjustomer 2 */
+ #img-14
+ {
+    margin-left: 7rem;
+    margin-top: 12rem;
+ }
+ .h15
+ {
+    margin-left: 7rem;
+    margin-top: 25rem;
+    font-weight: bold;
+ }
+ #star5/* ,#star2,#star3,#star4 */
+ {
+    margin-left: 7rem;
+    margin-top: 27.5rem;
+
+}
+#star6
+{
+     margin-left: 9rem;
+    margin-top: 27.5rem;
+
+    
+ }
+ #star7
+{
+     margin-left:11rem;
+    margin-top: 27.5rem;
+
+    
+ }
+ #star8
+{
+     margin-left: 13rem;
+    margin-top: 27.5rem;
+
+    
+ }
+ #star9
+{
+     margin-left: 15rem;
+    margin-top: 27.5rem;
+
+ }
+ .p14
+ {
+    font-size: 10px;
+    text-align: center;
+    margin-left: 6.5rem;
+    margin-top: 30rem;
+ }
+
+ /* customer 3 coding */
+
+ #img-15
+ {
+    margin-left: 7rem;
+    margin-top: 37rem;
+ }
+ #h16
+ {
+    margin-left: 7.4rem;
+    margin-top: 50rem;
+    font-weight: bold;
+ }
+ #star10/* ,#star2,#star3,#star4 */
+ {
+    margin-left: 7rem;
+    margin-top: 52.2rem;
+
+}
+#star11
+{
+     margin-left: 9rem;
+     margin-top: 52.2rem;
+
+
+    
+ }
+ #star12
+{
+     margin-left:11rem;
+     margin-top: 52.2rem;
+
+
+    
+ }
+ #star13
+{
+     margin-left: 13rem;
+     margin-top: 52.2rem;
+
+
+    
+ }
+ #star14
+{
+     margin-left: 15rem;
+     margin-top: 52.2rem;
+
+
+ }
+ .p15 
+ {
+    font-size: 10px;
+    text-align: center;
+    margin-left: 6.5rem;
+    margin-top: 54.5rem;
+}
+
+
+/* =======contact us section */
+.text-1
+{
+    margin-left: 5.5rem;
+    margin-top: 65rem;
+ }
+ .text-2
+ {
+    margin-left: 7.8rem;
+    margin-top: 68rem;
+    
+}
+.get-in
+{
+    margin-left: 2rem;
+    margin-top: 72rem;
+    font-size: 17px;
+
+ }
+ .connect
+ {
+    margin-left: 2rem;
+    margin-top: 73.8rem;
+    font-size: 13px;
+ }
+ #profile-logo
+ {
+    margin-left: 2rem;
+    margin-top: 77.5rem;
+    font-size: 22px;
+ }
+ .name
+ {
+    margin-left: 5rem;
+    margin-top: 77rem;
+    font: size 15px;
+    font-weight: lighter;
+ }
+ .name-1
+ {
+    margin-left: 5rem;
+    margin-top: 78.1rem;
+    font-size:  15px;
+    font-weight: lighter;
+ }
+
+ #location-logo
+ {
+    margin-left: 2rem;
+    margin-top:81.5rem;
+    font-size: 22px;
+ }
+ .Adress
+ {
+    margin-left: 5rem;
+    margin-top: 81rem;
+    font: size 15px;
+    font-weight: lighter;
+ }
+ .address-1
+ {
+    margin-left: 5rem;
+    margin-top: 82.2rem;
+    font-size:  15px;
+    font-weight: lighter;
+ }
+
+ #EMAIL-logo
+ {
+    margin-left: 2rem;
+    margin-top:85rem;
+    font-size: 22px;
+ }
+ .email-name
+ {
+    margin-left: 5rem;
+    margin-top: 85rem;
+    font-size:  15px;
+    font-weight: lighter;
+ }
+ .Email-fill
+ {
+    margin-left: 5rem;
+    margin-top: 86.2rem;
+    font-size:  12px;
+    font-weight: lighter;
+ }
+
+ .message-me
+ {
+    margin-left: 1.8rem;
+    margin-top: 90rem;
+    font-size: 15px;
+ }
+ #input-name
+ {
+    margin-left: 1.5rem;
+    margin-top: 92rem;
+    font-size: 15px;
+    width: 320px;
+ }
+ #Email-text
+ {
+    margin-left: 1.5rem;
+    margin-top: 96rem;
+    font-size: 15px;
+    width: 320px;
+ }
+ #Subject-txt
+ {
+    margin-left: 1.5rem;
+    margin-top: 100rem;
+    font-size: 15px;
+    width: 320px;
+ }
+ #Message-txt
+ {
+    margin-left: 1.5rem;
+    margin-top: 104rem;
+    font-size: 15px;
+    width: 320px;
+ }
+ input[type="submit"]
+ {
+    margin-left: 1.5rem;
+    margin-top: 111.5rem;
+    font-weight: lighter;
+ }
+ .copyright
+ {
+    margin-top: 115rem;
+    margin-left: -1rem;
+    width: 380px;
+    font-size: 14px;
+ }
+}
+@media only screen and (min-width: 1200px)
+{
+
+}
+
+
